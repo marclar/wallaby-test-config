@@ -1,5 +1,6 @@
 'use strict';
 
+var UserProfile = require('../src/jsx/app/components/UserProfile.jsx');
 var testUtils = React.addons.TestUtils;
 
 describe('User Profile', () => {

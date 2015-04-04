@@ -7,17 +7,17 @@ module.exports = function () {
 
   return {
     files: [
-      { pattern: 'src/*.js', load: false },
-
       {pattern: 'test/phantomPolyfill.js', instrument: false},
       {pattern: 'node_modules/react/dist/react-with-addons.js', instrument: false},
       'assets/**',
-      'src/jsx/app/components/**'
+
+      { pattern: 'src/**/*.js', load: false },
+      { pattern: 'src/**/*.jsx', load: false }
     ],
 
     tests: [
       {pattern: 'test/*Spec.js', load: false },
-      {pattern: 'test/*Spec.jsx'}
+      {pattern: 'test/*Spec.jsx', load: false}
     ],
 
     preprocessors: {

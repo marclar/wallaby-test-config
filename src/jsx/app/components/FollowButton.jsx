@@ -1,4 +1,4 @@
-//var Fluxxor = require('fluxxor');
+var Fluxxor = require('fluxxor');
 
 var FollowButton = React.createClass({
 
@@ -14,3 +14,6 @@ var FollowButton = React.createClass({
     );
   }
 });
+
+
+module.exports = FollowButton;
