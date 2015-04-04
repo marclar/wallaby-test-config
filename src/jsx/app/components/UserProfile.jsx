@@ -1,3 +1,6 @@
+var ProfilePicture = require('./ProfilePicture.jsx');
+var FollowButton = require('./FollowButton.jsx');
+
 var UserProfile = React.createClass({
   render: function() {
     return (
@@ -8,3 +11,5 @@ var UserProfile = React.createClass({
     );
   }
 });
+
+module.exports = UserProfile;

@@ -5,3 +5,5 @@ var ProfilePicture = React.createClass({
     );
   }
 });
+
+module.exports = ProfilePicture;
